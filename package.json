@@ -1,0 +1,25 @@
+{
+  "name": "fantasy-futbol",
+  "version": "1.0.0",
+  "description": "Portfolio Assignment for cs493",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nathan Ramos",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/datastore": "^6.6.2",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "express-jwt": "^7.7.1",
+    "express-openid-connect": "^2.7.2",
+    "http-errors": "^2.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "jwks-rsa": "^2.1.2",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
+  }
+}
