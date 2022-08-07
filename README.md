@@ -30,3 +30,19 @@ Any request regarding a user or team entity associated with a user, must have a 
 The application is designed to be hosted on the Google Cloud Platform (GCP) using the Google App Engine. 
 
 Uses the Google Cloud Datastore, a NoSQL database, to store all entity and relationship data. 
+
+## Hosting REST API
+
+The API was originally deployed on GCP but due to credits expiring is no longer active. 
+
+To host the API locally download all project files to a directory.
+
+Update the project [.env](.env) file to contain the proper information.
+
+Install Node.js, and run 'npm install' to download all the project dependencies. 
+
+Run the project using the terminal command 'node server.js'
+
+Additionally, included in the [postman_tests](postman_tests) directory is testing enviroment file and testing collection for the REST API.
+
+
