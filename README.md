@@ -21,7 +21,7 @@ Users and players do not have a direct association.
 
 Makes use of OAuth 2.0 authorization and uses Auth0 to generate jwt tokens for authentication.
 
-All users must create a account an account using Auth0 in order to create thier user entity.
+All users must create an account using Auth0 in order to create their user entity.
 
 Any request regarding a user or team entity associated with a user, must have a jwt token authenticating the request of the protected resource. Any requests without proper authentication will be rejected.
 
@@ -39,10 +39,10 @@ To host the API locally download all project files to a directory.
 
 Update the project [.env](.env) file to contain the proper information.
 
-Install Node.js, and run 'npm install' to download all the project dependencies. 
+Install Node.js and run 'npm install' to download all the project dependencies. 
 
 Run the project using the terminal command 'node server.js'
 
-Additionally, included in the [postman_tests](postman_tests) directory is testing enviroment file and testing collection for the REST API.
+Additionally, included in the [postman_tests](postman_tests) directory is testing environment file and testing collection for the REST API.
 
 
