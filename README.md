@@ -27,6 +27,8 @@ All users must create an account using Auth0 in order to create their user entit
 
 Any request regarding a user or team entity associated with a user, must have a jwt token authenticating the request of the protected resource. Any requests without proper authentication will be rejected.
 
+#### An Example of how to register and account and get a jwt token for requests
+
 ![User Authentication](gifs/Auth.gif)
 
 ### Google Cloud Platform
