@@ -17,6 +17,8 @@ Teams will have more than one player, but each player can only be associated wit
 
 Users and players do not have a direct association.
 
+All responses are in JSON.
+
 ### User Authentication
 
 Makes use of OAuth 2.0 authorization and uses Auth0 to generate jwt tokens for authentication.
